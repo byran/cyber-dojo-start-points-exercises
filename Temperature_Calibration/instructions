@@ -1,0 +1,20 @@
+A product you're developing measures temperature using a thermocouple
+attached to an ADC. The thermocouple requires calibrating. The
+calibration procedure has already been written and produces a
+calibration table to allow conversion of ADC reading to temperatures.
+
+Your task is to convert an ADC reading to a temperature using the
+calibration table.
+
+Example:
+
+| Temperature | ADC |
+| 0           | 10  |
+| 50          | 375 |
+| 100         | 948 |
+
+With the calibration table above an ADC reading of 302 will
+give a temperature of 40 if the data is linearly interpolated.
+
+Additional exercises:
+* Only use integer maths.
