@@ -1,0 +1,21 @@
+Binary Encoding
+===============
+
+A form of binary encoding is required where
+transitions between consecutive numbers differ by
+only one bit. This is a useful encoding for reducing
+hardware data hazards with values that change rapidly
+and/or connect to slower hardware as inputs
+
+Create functions to encode a number to, and decode a
+number from, your binary encoding. Your encoding
+should support the full range of values representable
+by normal binary encoding for the number of bits you
+use. (e.g. if you use 8-bit in your encoded number
+then you should be able to represent the values from
+0 to 255)
+
+Display the normal binary representations, your
+binary representations, and the decoded values of
+your binary representation for all 5-bit binary
+numbers (0-31 inclusive, leading 0's not necessary).
