@@ -1,0 +1,23 @@
+ADC Smoothing
+=============
+
+You’re developing a mixing desk and need to read the
+position of the faders. Each fader is attached to your
+micro controller via an ADC pin. When reading the ADC
+you notice there are 4-bits of noise  on the readings.
+
+The fader position is transmitted over MIDI every time
+it changes.
+
+Develop a smoothing algorithm that removes the noise
+while still providing a fast response time to reduce
+the number of packets that need to be sent over the
+MIDI bus.
+
+The smoothed reading must be within 1% of the actual
+reading within 10ms.
+
+System details
+Micro controller : 16-bit @ 40MHz
+ADC data         : unsigned 12-bit left justified
+ADC sample rate  : 100kHz
