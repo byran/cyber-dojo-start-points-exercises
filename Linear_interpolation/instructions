@@ -1,7 +1,10 @@
-Reading a temperature using a microcontroller is often accomplished using an
-ADC. The ADC will produce integer readings which represent the voltage at
-the input pin of the microcontroller. These readings require conversion to
-a value representing a temperature to be used in the rest of the system.
+Reading a temperature using a microcontroller is often
+accomplished using an ADC. The ADC will produce integer
+readings which represent the voltage at the input pin
+of the microcontroller. These readings require
+conversion to a value representing a temperature to be
+used in the rest of the system.
 
-Create a linear interpolator to convert an unsigned 10-bit ADC reading to a
-temperature represented as a signed integer with a minimum width of 16-bits.
+Create a linear interpolator to convert an unsigned
+10-bit ADC reading to a temperature represented as
+a signed integer with a minimum width of 16-bits.
