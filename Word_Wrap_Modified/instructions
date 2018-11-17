@@ -1,0 +1,23 @@
+You're developing a system that uses a two line LCD.
+
+Your task is to write a function that takes two arguments,
+a string and an integer width.
+
+The function returns two values the first indicates the index
+where the string should be wrapped so words are not split
+over the first and second line unless they are longer than a
+line. The second value indicates the (index + 1) of the
+last char to be displayed.
+
+e.g:
+If you have a 8 character wide display and you pass in the
+following strings the expected indexes are indicated:
+
+"Hello World"
+       ^    ^
+
+"Hello World a answer"
+       ^       ^
+
+"Supercalifragilisticexpialidocious"
+         ^       ^
